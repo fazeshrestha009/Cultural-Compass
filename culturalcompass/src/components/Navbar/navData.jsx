@@ -15,8 +15,8 @@ const navMenu = [
         icon: <IoMdHome/>,
       },
       {
-        title: "About Us",
-        link: "/aboutus",
+        title: "Explore",
+        link: "/visit",
         icon: <FaPeopleRoof/>,
 
       },
