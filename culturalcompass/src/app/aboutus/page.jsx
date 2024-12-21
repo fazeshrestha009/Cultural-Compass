@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar/navbar'
 const page = () => {
   return (
     <div>
-        <Navbar/>
+        {/* <Navbar/> */}
     </div>
   )
 }

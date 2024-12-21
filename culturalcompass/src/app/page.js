@@ -1,9 +1,15 @@
-import Image from "next/image";
+import City from "@/components/Home/City";
+import Header from "@/components/Home/Header";
+import Topplaces from "@/components/Home/Topplaces";
+import Events from "@/components/Home/Events";
 
 export default function Home() {
   return (
-    <div className="w-full h-screen flex justify-center items-center">
-      <h1 className="text-4xl text-black">Welcome to Cultural Compass</h1>
-    </div>
+   <div>
+    <Header/>
+    <City/>
+    <Topplaces/>
+    <Events/>
+   </div>
   );
 }
