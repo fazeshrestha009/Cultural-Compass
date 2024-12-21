@@ -19,8 +19,8 @@ const Navbar = () => {
 
   return (
     <>
-      <div className='relative flex items-center justify-between w-full h-20 gap-6 px-8 md:px-6 lg:px-10 drop-shadow-2xl bg-white '>
-        <div className="relative z-10 flex flex-row items-center md:justify-center justify-between w-full px-0 text-center text-black md:px-5 lg:px-10">
+      <div className='relative fixed z-50 flex items-center justify-between w-full h-20 gap-6 px-8 md:px-6 lg:px-10 drop-shadow-2xl bg-white '>
+        <div className="relative flex flex-row items-center md:justify-center justify-between w-full px-0 text-center text-black md:px-5 lg:px-10">
           <div className="flex items-center">
             <Image
               height={500}

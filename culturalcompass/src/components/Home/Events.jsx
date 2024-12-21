@@ -52,7 +52,7 @@ const Events = () => {
       </div>
 
       {/* Calendar Section */}
-      <div className="mb-12 w-full max-w-xl mx-auto">
+      <div className="mb-12 w-full max-w-xl mx-auto cursor-pointer">
         <FullCalendar
           plugins={[dayGridPlugin, interactionPlugin, timeGridPlugin]}
           headerToolbar={{
